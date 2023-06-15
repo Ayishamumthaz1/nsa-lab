@@ -1,0 +1,4 @@
+echo "enter the limit"
+read n
+sum=$(((n*(n+1)/2)))
+echo "sum=$sum"

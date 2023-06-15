@@ -1,0 +1,11 @@
+echo "enter a file name"
+read filename
+word=$(cat "$filename"|wc -w)
+char=$(cat "$filename"|wc -c)
+
+line=$(cat "$filename"|wc -l)
+
+echo "number of charecter=$char"
+echo "number of words=$word"
+echo "number of line=$line"
+

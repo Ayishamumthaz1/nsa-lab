@@ -1,0 +1,2 @@
+a="Ayisha mumthaz"
+echo "$a"

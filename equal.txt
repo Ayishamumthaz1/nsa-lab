@@ -1,0 +1,10 @@
+echo "insert two numbers"
+read num1
+read num2
+if ((num1==num2))
+then
+echo "numbers equal"
+else
+echo "numbers not equal"
+fi
+~
