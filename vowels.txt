@@ -1,0 +1,5 @@
+echo "enter a string"
+read s
+vowels=$(echo $s |grep -o "[aeiouAEIOU]"|wc --lines)
+echo "number of vowels=$vowels"
+
